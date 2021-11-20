@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Danyaell/My-Posts/issues"
   },
-  "homepage": "https://github.com/Danyaell/My-Posts#readme"
+  "homepage": "https://github.com/Danyaell/My-Posts#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
