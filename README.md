@@ -22,3 +22,11 @@ Se installa la extensión nodemon y se modifica el archivo package.json para con
 
 ##### 21:35
 Se hace comit y push del proyecto para actualizar.
+
+### 20 de Noviembre del 2021
+##### 16:45
+Se crea el archivo db.config.js para configurar la conexión a la base de datos. Esta está creada en Heroku y es una base SQL. También se instaló sql en nuestro proyecto:
+###### npm install --save sql
+
+##### 17:05
+Se hizo commit del proyecto y push.
