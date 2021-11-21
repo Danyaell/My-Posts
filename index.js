@@ -1,12 +1,11 @@
 const express = require("express");
 
 const app = express();
+const bodyParser = require("body-parser");
+const usersRoutes = require("./routes/users.route");
 
-app.use("/test", (req, res) => {
-  console.log("Recived Request");
-  
-  res.status(200).send("Success");
-});
+app.use(bodyParser.json());
+app.use("/users", usersRoutes);
 
 app.listen(3000, () => {
   console.log("I am ready to listen you.");
