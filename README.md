@@ -40,3 +40,9 @@ Proyecto de ejemplo para el curso de NodeJs REST APIs - Proyects [Express + Swag
 ### 22 de Noviembre del 2021
 
 ##### 19:13 Se añade la funcionalidad a la creación de un post, añadiendo código en route, controller y service.
+
+### 23 de Noviembre del 2021
+
+##### 15:03 Se agregaron las funcionalidades para comentar, dar like, dislike y obtener los posts y comentarios.
+
+##### 15:10 Se hace commit del proyecto

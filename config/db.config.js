@@ -6,7 +6,7 @@ const db = createPool({
     user: "b5e7fa9c10f7be",
     password: "9f93571e",
     database: "heroku_0851adc5a4a0c66",
-    connectionLimit: 10,
+    connectionLimit: 30,
 });
 
 module.exports = db;
