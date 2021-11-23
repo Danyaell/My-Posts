@@ -10,3 +10,12 @@ exports.register = (data, callback) => {
         }
     );
 };
+
+exports.login = (data, callback) => {
+    db.query(`SELECT id FROM users WHERE emailId = ? AND password = ?`,
+    [data.emailId, data.password], (error, results, fields) => {
+        if (error) return;
+        else if (results.length > 0) { return callback(null, "Login success"); } 
+        else { return callback("Invalid credentials"); }
+    });
+};

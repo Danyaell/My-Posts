@@ -32,3 +32,11 @@ Proyecto de ejemplo para el curso de NodeJs REST APIs - Proyects [Express + Swag
 ##### 13:08 Se instaló bodyParser para la lectura de los datos en el body de la app.
 
 ##### 13:10 Se hace commit del proyecto y se actualiza en el repositorio de GitHub.
+
+##### 14:28 Se agregan los paquetes de Swagger.
+
+##### 14:42 Se utiliza la API de Swagger para documentar la aplicación para el desarrollo de FrontEnd.
+
+### 22 de Noviembre del 2021
+
+##### 19:13 Se añade la funcionalidad a la creación de un post, añadiendo código en route, controller y service.
