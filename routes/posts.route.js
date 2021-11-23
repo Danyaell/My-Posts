@@ -46,4 +46,22 @@ router.post("/add-post", postsController.addPost);
  *              description: Bad request
  */
 
+router.get("/get-all-posts", postsController.getAllPosts);
+
+/**
+ * @swagger
+ * /posts/get-all-posts:
+ *   get:
+ *      description: Used to get all posts
+ *      tags:
+ *          - posts
+ *      responses:
+ *          '200':
+ *              description: Resource added successfully
+ *          '500':
+ *              description: Internal server error
+ *          '400':
+ *              description: Bad request
+ */
+
 module.exports = router;
