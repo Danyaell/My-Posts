@@ -1,7 +1,13 @@
 # My-Posts
-Proyecto de ejemplo para el curso de NodeJs REST APIs - Proyects [Express + Swagger + MySQL].
+### Proyecto de ejemplo para el curso de NodeJs REST APIs - Proyects [Express + Swagger + MySQL].
 
-## Documentación
+Este proyecto es el BackEnd de una applicación que permite crear usuarios, ingresar con uno, crear posts, comentarlos, darles like o dislike y eliminarlos, así como poder visualizar todos los posts y sus comentarios.
+
+Para crearlo se utilizaron las tecnologías de NodeJs, para poder utilizar JavaScript y crear las rutas, controladores y servicios de cada función. También se utilizó Express para poder desarrollarla. La base de datos fue creada en Heroku, siendo una BD SQL, por lo cual también se hace uso de paqueterías de MySQL.
+
+La aplicación está documentada con Swagger para su fácil entendimiento en FrontEnd.
+
+## Bitácora
 
 ### 19 de Noviembre del 2021
 ##### 19:37 Se creó el repositorio.
